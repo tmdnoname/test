@@ -7,6 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
+    print("joy改了")
     return "index"
 
 
